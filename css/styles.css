@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Dancing+Script&family=Montserrat:ital,wght@1,200&display=swap');
+
+body {
+    font-family:"Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.45 ease;
+    font-weight:500;
+}
+
+img{
+    width: 100%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* NAVBAR*/
+.top-nav {
+    background-color:#1F1F1C;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.top-nav span,
+.top-nav i {
+    vertical-align: middle;
+}
+
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active
+{
+    color: #ff4d29 ;
+}
+
+.social-icons a {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.social-icons a:hover {
+    background-color: #ffffff;
+    color: var(--brand);
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar-brand span {
+    color: #1F1F1C;
+}
+
+
+
+/*BTN*/
+
+.btn {
+    padding: 8px 26px;
+}
+
+.btn-brand {
+    border-color: #1F1F1C;
+    background-color: #1F1F1C;
+    color: #fff;
+    
+}
+
+
+.btn-brand:hover {
+    background-color: #1F1F1C;
+    border-color: #1F1F1C;
+    color: #000;
+    box-shadow: 4px 4px 4px #ffffff;
+    
+}
+
+/* SLIDER*/
+.slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}   
+
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/img/aire\ libre.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/img/mueble\ naranja.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/img/silla.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide .display-3 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*OWL CAROUSEL*/
+.owl-prev,
+.owl-next{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    color: #fff !important;
+    border-radius: 100px;
+    line-height: 0;
+    border-radius: 100px !important;
+    position: absolute;
+    top: 50%;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    transition: all 0.4s ease;
+    margin-top: -30px !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+.owl-next {
+    right: 0;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: #ff4d29 !important; 
+}
+
+/*INFOBOX*/
+.info-box {
+    align-items: center;
+    display: flex;
+}
+
+.info-box img {
+    width: 90px;
+    margin-right: 24px;
+}
+
+/*BANNER*/
+#milestone {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(/img/sillas\ amarillas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#milestone h1,
+#milestone {
+    color: #fff;
+    position: relative;
+    }
+
+.service {
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+}
+
+.service h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service img {
+    width: 250px;
+}
+
+.conoce{
+    background-color: #353530;
+    border-color: #eaf1ed;
+    color: rgb(243, 250, 241);
+    padding: 8px 26px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    height: 15vw;
+    /*Para realizar difuminado es con el atributo box shadow, desplaza 8 abajo 8 derecha y difuminado 4px al agregarle el menos seria arriba y dizquierda */
+    box-shadow: 4px 4px 4px #c5ab93;
+}
+
+
+#Logo{
+    width: 8rem;
+    height: auto;
+}
+
+#cuidados{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#cuidados-center{
+    margin-top: 75px;
+    text-align: center;
+    
+}
+
+.col-lg-2 {
+    width: 250px;
+    margin-left: 30px;
+    
+}
+
+#barra{
+    background-color: darkslategrey;
+}
